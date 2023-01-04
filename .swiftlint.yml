@@ -1,0 +1,229 @@
+# Enlace a las reglas de SwiftLint "https://realm.github.io/SwiftLint/rule-directory.html"
+# Reglas que se inhabilitan por no ser útiles
+disabled_rules:
+  - force_cast
+  - large_tuple
+
+analyzer_rules:
+
+# Reglas que se habilitan (que SwiftLint tiene inhabilitadas por defecto)
+opt_in_rules:
+  - anonymous_argument_in_multiline_closure # [HABILITAR] Recomienda usar argumentos con nombre (en lugar de $0) en los closures de más de una línea
+  - anyobject_protocol # [HABILITAR] Recomienda usar "AnyObject", en lugar de "class" en los protocolos
+  - array_init #-[ANALIZAR] Recomienda usar "Array(seq)" en lugar de "seq.map { $0}" para convertir una secuencia "seq" en un Array.
+  - attributes # [HABILITAR] Los atributos deben estar en sus propias líneas en funciones y tipos, pero en la misma línea que las variables y las importaciones.
+  - balanced_xctest_lifecycle # [HABILITAR] Si se pone un SetUp, hay que poner un tearDown. Activar
+#  - capture_variable #-[DESHABILITAR][ENTENDER]
+  - closure_body_length # [HABILITAR] Recomienda no usar cuerpos de "closure" grandes W(20) E(100)
+  - closure_end_indentation # [HABILITAR] Recomienda indentar bien las llaves de los closure
+  - closure_spacing # [HABILITAR] Recomienda usar un espacio en cada llave de un closure
+  - collection_alignment # [HABILITAR] Recomienda alinear verticalmente los elementos de una colección
+  - conditional_returns_on_newline # [HABILITAR] Las sentencias condicionales (guard, if...) han de realizar el return en una nueva línea. Viene bien para poner los breakpoints.
+  - contains_over_filter_count # [HABILITAR] Recomienda el uso de "contains" frente a "filter(where:).count"
+  - contains_over_filter_is_empty # [HABILITAR] Recomienda el uso de "contains" frente a "filter(where:).isEmpty"
+  - contains_over_first_not_nil # [HABILITAR] Recomienda el uso de "contains" frente a "first(where:) != nil" y "firstIndex(where:) != nil"
+  - contains_over_range_nil_comparison # [HABILITAR] Recomienda el uso de "contains" frente a "range(of:) != nil" y "range(of:) == nil"
+#  - convenience_type # [Deshabilitar] Recomienda usar "enum" cuando una struct/class sólo contiene elementos "static". Lo necesitamos para la arquitectura.
+  - discarded_notification_center_observer # [HABILITAR] Recomienda guardar el observer creado para poder eliminarlo
+  - discouraged_assert # [HABILITAR] Recomienda usar "assertionFailure()" frente a "preconditionFailure()" y "assert(false)"
+  - discouraged_none_name # [HABILITAR] Recomienda no usar "none" en un case, debido a que es una propiedad estática de los opcionales "Optional<T>.none".
+  - discouraged_object_literal # [HABILITAR] Recomienda el uso de inicializadore frente a los "litearles" (#imageLiteral, #colorLiteral)
+  - discouraged_optional_boolean # [HABILITAR] Se desaconseja usar Bool?
+#  - discouraged_optional_collection # [Deshabilitar] Desaconseja colecciones opcionales, frente a vacías []
+  - empty_collection_literal # [HABILITAR] Usar isEmpty, frente a comparaciones de tipo ==, !=
+  - empty_count # [HABILITAR] Usar isEmpty, frente a ".count" ==, >, <, ...
+  - empty_string # [HABILITAR] Usar isEmpty, frente a comparaciones de tipo == "", != "", > 0
+  - empty_xctest_method # [HABILITAR] Recomienda no hacer funciones de test vacíos.
+  - enum_case_associated_values_count # [HABILITAR] Impide que los enum con parámetros asociados, tengan demasiados parámetros W(5) E(6)
+  - expiring_todo #-[ANALIZAR] El formato de la fecha es [MM/dd/yyyy]
+#  - explicit_acl # [Deshabilitar] Recomienda indicar el ACL (nivel de control de acceso) a cada propiedad, enum, función... Parece excesivo.
+#  - explicit_enum_raw_value # [Deshabilitar] Puede entrar en conflicto con "redundant_string_enum_value". Se recomienda no habilitarla.
+  - explicit_init # [HABILITAR] Recomienda no llamar a ".init"
+#  - explicit_self #-[DESHABILITAR] Recomienda usar self para referirse a variables de instancia y funciones. Aunque es recomendable, mucha gente lo desaconseja.
+#  - explicit_top_level_acl # [Deshabilitar] Recomienda indicar el ACL (nivel de control de acceso) a cada declaración de primer nivel (classes, structs...). Parece excesivo.
+#  - explicit_type_interface # [DESHABILITAR] Recomienda indicar el tipo de la propiedad. Se inhabilita para que cada cual pueda hacer la "inferencia de tipos" según desee.
+#  - extension_access_modifier #-[DESHABILITAR][ANALIZAR] No me quedan claros los ejemplos
+  - fallthrough # [HABILITAR] Aconseja evitar fallthrough en los case, y unir varios en uno
+  - fatal_error_message # [HABILITAR] Aconseja no poner errores fatales sin descripción
+#  - file_header #-[DESHABILITAR][ENTENDER][ANALIZAR]
+#  - file_name # [DESHABILITAR] Recomienda que el nombre de la clase, struct, se el mismo que el indicado en el nombre del fichero. Es buena práctia, pero para los ficheros en los tutoriales DocC, generaría warnings muchas veces.
+  - file_name_no_space # [HABILITAR] Recomienda que el nombre de fichero no tenga espacios en blanco. No me ha funcionado
+  - file_types_order # [HABILITAR] Indica el orden de definición de los elementos. Analizar con muuuucho detalle "https://realm.github.io/SwiftLint/file_types_order.html".
+  - first_where # [HABILITAR]Recomenzable usar ".first(wHere:)" antes que ".filTer { }.fist" por rendimiento
+  - flatmap_over_map_reduce #-[HABILITAR][ENTENDER] Se recomienda usar .flatMap antes que .map { }.reduce([], +) por rendimiento
+#  - force_unwrapping #-[DESHABILITAR][ANALIZAR] Recomienda no usar el desempaquetado forzoso.
+#  - function_default_parameter_at_end #-[DESHABILITAR][ANALIZAR] Se recomienda poner los parámetros opcionales al final de la definición de la función
+  - ibinspectable_in_extension # [HABILITAR] Recomienda no añadir IBInspectable en extensiones
+  - identical_operands # [HABILITAR] Recomienda no comparar los operandos iguales 1 == 1, obj == obj
+  - implicit_return # [HABILITAR] Si sólo hay una línea, no poner el "return" explícitamente
+  - implicitly_unwrapped_optional #-[HABILITAR][ANALIZAR] Recomienda no usar "!" en la definición de parámetros.
+#  - indentation_width # [Deshabilitar] la indentación ha de ser multiplo de 4. Aun así, falla a veces.
+  - joined_default_parameter # [HABILITAR] Recomienda no usar el separador por defecto "".
+  - last_where # [HABILITAR] Recomienda el uso de ".last(where:)" frente a ".filter { }.last".
+  - legacy_multiple # [HABILITAR] Recomienda el uso de ".isMultiple(of: )" frente al operador "%". No funciona si la comparación se mete entre paréntesis.
+#  - legacy_objc_type #-[Deshabilitar][ANALIZAR] Recomienda evitar tipos de Objective C. IMPORTANTE REVISAR, SE USA EN LA ARQUITECTURA.
+  - let_var_whitespace # [HABILITAR] let y var se han de separar del resto de cosas con una línea vacía.
+  - literal_expression_end_indentation # [HABILITAR] La indentación de los elementos de un array, tiene que ser el marcado por el primer elemento.
+  - lower_acl_than_parent # [HABILITAR] Indica que un elemento tiene un control de acceso menor que el padre
+  - missing_docs # [HABILITAR][OBLIGATORIO] Recomienda a documentar todos los métodos públicos.
+  - modifier_order # [HABILITAR] Recomienda poner los modificadore en el orden correcto
+#  - multiline_arguments # [Deshabilitar] Los argumentos deben estar en la misma línea o uno por línea. Lanza muchos warnings en SwiftUI.
+#  - multiline_arguments_brackets # [Deshabilitar] Si se pone un argumento en otra línea, obliga a que todos (incluido el primero) estén en otra línea. Hace mucho ruido y no aporta.
+  - multiline_function_chains # [HABILITAR] Recomienda definir todas las llamadas encadenadas en línea o cada una separado en cada línea, pero no una mezcla.
+#  - multiline_literal_brackets # [DESHABILITAR] En un array de "literales", el [ y ] han de estar en línas separadas, sin ningún literal, o todo el array en una misma línea.
+  - multiline_parameters # [HABILITAR] Recomienda definir todos los parámetros en línea o cada uno separado en cada línea, pero no una mezcla.
+#  - multiline_parameters_brackets # [Deshabilitar] Si se pone un parámetro en otra línea, recomienda que todos (incluido el primero) estén en otra línea.
+#  - nimble_operator # [DESHABILITAR] Nimble Framework para testing
+#  - no_extension_access_modifier # [Deshabilitar] No tendría sentido activarla para el SPM de extensiones, ya que han de ser públicas en este caso. Activar la regla en proyectos.
+#  - no_grouping_extension # [Deshabilitar] Las extensiones no deben usarse para agrupar código dentro del mismo archivo fuente.
+#  - nslocalizedstring_key # [DESHABILITAR] No se aplica porque se pega con la extensión del "traductor" de textos (localizador)
+  - nslocalizedstring_require_bundle # [HABILITAR] Obliga a especificar en bundle en NSLocalizedString
+#  - number_separator # [DESHABILITAR] Recomienda poner separadores de miles "_" en los números grandes.
+  - object_literal #-[DESHABILITAR][ANALIZAR] Recomienda inicializadores literales, frente a los ".init"
+  - operator_usage_whitespace # [HABILITAR] Recomienda poner un único espacio entre operadores
+#  - optional_enum_case_matching # [DESHABILITAR] Recomienda no poner "?" en los case de los enum.
+  - overridden_super_call # [HABILITAR] Recuerda que existen métodos a los que hay que llamara a "super."
+  - override_in_extension # [HABILITAR] Impide que una extensión sobreescriba declaraciones.
+#  - pattern_matching_keywords # [DESHABILITAR][ENTENDER]
+#  - prefer_nimble  # [DESHABILITAR] Nimble Framework para testing
+  - prefer_self_in_static_references # [HABILITAR] Self, no self
+  - prefer_self_type_over_type_of_self #-[HABILITAR][ENTENDER] Usar "Self" en lugar de "type(of: self)"
+  - prefer_zero_over_explicit_init # [HABILITAR] Recomienda el uso de ".zero" como inicializadores
+#  - prefixed_toplevel_constant # [DESHABILITAR] Recomienda indicar las constantes con "k" al inicio. Provoca warning en el fichero Package
+  - private_action # [HABILITAR] Recomienza hacer privados los action
+  - private_outlet # [HABILITAR] Recomienza hacer privados los outlets
+  - private_subject # [HABILITAR] Los "Sujetos" de "Combine" han de ser privados.
+#  - prohibited_interface_builder # [DESHABILITAR][NO ACTIVAR NUNCA] Prohibe crear intefaces con Interface Builder. Me parece absurda, no habilitar nunca.
+  - prohibited_super_call # [HABILITAR] Algunos métodos no tienen que llamar al super
+#  - quick_discouraged_call # [DESHABILITAR] Quick Framework para testing
+#  - quick_discouraged_focused_test # [DESHABILITAR] Quick Framework para testing
+#  - quick_discouraged_pending_test # [DESHABILITAR] Quick Framework para testing
+#  - raw_value_for_camel_cased_codable_enum #-[DESHABILITAR][ENTENDER] Enums de tipo "Codable" ha de tener valores
+  - reduce_into #-[DESHABILITAR][ENTENDER] Recomienda "reduce(into:_:)" frente a "reduce(_:_:)"
+  - redundant_nil_coalescing # [HABILITAR] Recomienda no usar " ?? nil" ya que es redundante.
+#  - redundant_type_annotation # [Deshabilitar] Recomienda no poner el tipo de una variable, si es redundante.
+#  - required_deinit # [DESHABILITAR] Recomienda crear un deinit en las clase. Asignar la severidad a "error". No se activa porque en el 99% de las veces no se usa.
+  - required_enum_case # [DESHABILITAR] Se ha de configurar. No habilitar porque la configuración quizá no se mantenga en el futuro
+  - single_test_class # [HABILITAR] Recomienda el uso de un fichero por clase de test.
+  - sorted_first_last # [HABILITAR] Recomienda el uso de "min" y "max", frente a ".sorted().first" y ".sorted().last".
+  - sorted_imports # [HABILITAR] Los import han de estar ordenados en orden alfabético creciente.
+  - static_operator # [HABILITAR] Los operadores han de ser definidos como static.
+  - strict_fileprivate # [HABILITAR] Recomienda usar "private" frente a "fileprivate".
+#  - strong_iboutlet # [DESHABILITAR] Recomienda hacer los IBoutlet strong, en lugar de weak. No activar nunca.
+  - switch_case_on_newline # [HABILITAR] Recomienda poner la "salida" del case, en la línea siguiente al case
+  - test_case_accessibility # [HABILITAR] Recomienda que todo lo que se añada a un test para ayudar al mismo, sea privado.
+  - toggle_bool # [HABILITAR] Recomienda usar ".toggle()" frente a " = !someBool".
+#  - trailing_closure # [DESHABILITAR] Usar, siempre que sea posible, los trailing closure. Se desahabilita porque genera falsos positivos en SwiftUI.
+  - type_contents_order #-[HABILITAR][ANALIZAR] Analizar el orden de las cosas dentro de una clase, struct
+  - unavailable_function # [HABILITAR] Recomienda marcar las funciones no usadas con "@available(*, unavailable)".
+  - unneeded_parentheses_in_closure_argument # [HABILITAR] Recomienda eliminar los paréntesis
+  - unowned_variable_capture # [HABILITAR] Recomienda el uso de [weak self] u otra variable, frente a [unowned self].
+  - untyped_error_in_catch # [HABILITAR] Recomienda indicar el tipo de error en el catch
+#  - unused_declaration #-[DESHABILITAR][ENTENDER] Parece que se pega con una regla de Xcode que ya hace lo mismo
+  - unused_import # [HABILITAR] Recomienda eliminar los import que no se estén usando. No parece funcionar
+  - vertical_parameter_alignment_on_call # [HABILITAR] No parece que funcione
+  - vertical_whitespace_between_cases # [HABILITAR] Línea vertical separadora entre cada case. Da claridad al código.
+  - vertical_whitespace_closing_braces # [HABILITAR] No permite dejar líneas en blanco antes de cerrar una llave
+#  - vertical_whitespace_opening_braces # [DESHABILITAR] Recomienda que no haya líneas vacías despúes de abrir una llave. Dejar una línea vacía proporciona claridad.
+  - weak_delegate # [HABILITAR] Recomienda que los delegados sean weak para evitar referencias cíclicas.
+  - xct_specific_matcher # [HABILITAR] Recomienda usar "XCTAssertEqual" y "XCTAssertNotEqual" y usar "XCTAssertTrue", "XCTAssertNil"
+  - yoda_condition # [HABILITAR] Recomienda poner la variable a la izquierda y la constante a la derecha en una comparación variable == 1, variable != "hola"
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+
+# Modificación de las reglas por defecto
+
+# Tamaño de línea
+line_length:
+  warning: 150
+  error: 300
+  ignores_urls: true
+  ignores_comments: true
+
+# Tamaño del cuerpo de una función
+function_body_length:
+  warning: 60
+  error: 70
+
+closure_body_length:
+  warning: 40 # Analizar mejor para las vistas de SwiftUI
+
+# Indica si hay caractere en blanco al final de la línea
+# No afecta a las líneas vacías (sin código) ni a los comentarios
+trailing_whitespace:
+  ignores_empty_lines: true
+  ignores_comments: true
+
+# Analiza la complejidad ciclomática
+# No cuenta los switchs
+cyclomatic_complexity:
+  ignores_case_statements: true
+
+# Reglas donde se aumenta la severidad y no permite compilar
+opening_brace:
+  severity: error
+
+return_arrow_whitespace:
+  severity: error
+
+comma:
+  severity: error
+
+colon:
+  severity: error
+
+trailing_comma:
+  severity: error
+
+trailing_newline:
+  severity: error
+
+vertical_whitespace:
+  severity: error
+
+trailing_semicolon:
+  severity: error
+
+identifier_name:
+  severity: error
+
+type_name:
+  severity: error
+
+xctfail_message:
+  severity: error
+
+statement_position:
+  severity: error
+
+switch_case_alignment:
+  severity: error
+
+# deployment_target
+# discouraged_direct_init
+# dynamic_inline
+# force_cast
+# inert_defer
+# is_disjoint
+# no_fallthrough_only
+# operator_whitespace
+# orphaned_doc_comment # No parece funcionar
+# private_unit_test # Ver si cuando se hagan test, las funciones de apoyo privades podrián ser un problema
+# self_in_property_initialization # No la entiendo
+# unused_control_flow_label # revisar los loop "label"
+# unused_enumerated # enumerated something
+# pattern_matching_keywordsfpattern_matching_keywords
+
+custom_rules:
+
+  force_https:
+    name: "Force HTTPS over HTTP"
+    regex: "((?i)http://(?!s))"
+    match_kinds: string
+    message: "HTTPS should be favored over HTTP"
+    severity: warning
+
+
+reporter: "xcode"
