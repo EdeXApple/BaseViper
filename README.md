@@ -1,15 +1,15 @@
 # Base McViper3
-**SDK de la arquitectura de _McViper3 NTTData_.**
+**SDK de la arquitectura de _Viper+ NTTData_.**
 
 Este SDK recoge un conjunto de librerías para dar soporte a los distintos dominios definidos en la
-arquitectura _McViper3 NTTData_.
+arquitectura _Viper+ NTTData_.
 
 ## Repositorios
   - MacViper3
     + https://steps.everis.com/git/MOVILIDAD/baseviper
 
 ## Base McViper3
-**SDK del Dominio de Operativas para _McViper3 NTTData__.**
+**SDK del Dominio de Operativas para _Viper+ NTTData__.**
 
 Este SDK ofrece un conjunto de interfaces e implementaciones para cargar y presentar operativas así­ como para hacer uso de los servicios que estas ofrecen.
 
