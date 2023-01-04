@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  testSPM
 //
-//  Created by Jose Antonio Romero Dueñas on 29/3/22.
+//  Created by EDEX on 29/3/22.
 //
 
 import MCVIPER
