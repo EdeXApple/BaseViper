@@ -13,7 +13,7 @@
 		75EFA77629718A5A00F46D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EFA77429718A5A00F46D6F /* Main.storyboard */; };
 		75EFA77829718A5B00F46D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EFA77729718A5B00F46D6F /* Assets.xcassets */; };
 		75EFA77B29718A5B00F46D6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EFA77929718A5B00F46D6F /* LaunchScreen.storyboard */; };
-		75EFA78429718ACB00F46D6F /* VIPERPLUS in Frameworks */ = {isa = PBXBuildFile; productRef = 75EFA78329718ACB00F46D6F /* VIPERPLUS */; };
+		75EFA78729718B5600F46D6F /* VIPERPLUS in Frameworks */ = {isa = PBXBuildFile; productRef = 75EFA78629718B5600F46D6F /* VIPERPLUS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75EFA78429718ACB00F46D6F /* VIPERPLUS in Frameworks */,
+				75EFA78729718B5600F46D6F /* VIPERPLUS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = ViperPlusExample;
 			packageProductDependencies = (
-				75EFA78329718ACB00F46D6F /* VIPERPLUS */,
+				75EFA78629718B5600F46D6F /* VIPERPLUS */,
 			);
 			productName = ViperPlusExample;
 			productReference = 75EFA76B29718A5A00F46D6F /* ViperPlusExample.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = 75EFA76229718A5A00F46D6F;
 			packageReferences = (
-				75EFA78229718ACB00F46D6F /* XCRemoteSwiftPackageReference "BaseViper" */,
+				75EFA78529718B5600F46D6F /* XCRemoteSwiftPackageReference "BaseViper" */,
 			);
 			productRefGroup = 75EFA76C29718A5A00F46D6F /* Products */;
 			projectDirPath = "";
@@ -366,7 +366,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		75EFA78229718ACB00F46D6F /* XCRemoteSwiftPackageReference "BaseViper" */ = {
+		75EFA78529718B5600F46D6F /* XCRemoteSwiftPackageReference "BaseViper" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/EdeXApple/BaseViper";
 			requirement = {
@@ -377,9 +377,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		75EFA78329718ACB00F46D6F /* VIPERPLUS */ = {
+		75EFA78629718B5600F46D6F /* VIPERPLUS */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 75EFA78229718ACB00F46D6F /* XCRemoteSwiftPackageReference "BaseViper" */;
+			package = 75EFA78529718B5600F46D6F /* XCRemoteSwiftPackageReference "BaseViper" */;
 			productName = VIPERPLUS;
 		};
 /* End XCSwiftPackageProductDependency section */
