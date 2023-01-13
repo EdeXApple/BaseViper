@@ -1,15 +1,15 @@
 # Base Viper+
-**SDK de la arquitectura de _Viper+ EdeX NTTData_.**
+**SDK de la arquitectura de _Viper+ EdeX _.**
 
 Este SDK recoge un conjunto de librerías para dar soporte a los distintos dominios definidos en la
-arquitectura _Viper+ EdeX NTTData_.**
+arquitectura _Viper+ EdeX _.**
 
 ## Repositorios
   - Viper+
-    + https://steps.everis.com/git/MOVILIDAD/baseviper
+    + https://github.com/EdeXApple/BaseViper
 
 ## Base Viper+
-**SDK del Dominio de Operativas para _Viper+ NTTData__.**
+**SDK del Dominio de Operativas para _Viper+ __.**
 
 Este SDK ofrece un conjunto de interfaces e implementaciones para cargar y presentar operativas así­ como para hacer uso de los servicios que estas ofrecen.
 
@@ -45,14 +45,6 @@ Esto debería añadir también una referencia al framework en *Linked Frameworks
 
 En caso de no hacer uso de un gestor de paquetes, el framework debe formar parte del proyecto, y cuando aplique, también de su repositorio.
 
-### Carthage
-En caso de utilizar Carthage para gestionar la dependencia de esta librería, deberemos añadir los siguientes datos al fichero Cartfile:
-```
-git "ssh://git@git-ssh.everis.com:766/MOVILIDAD/baseviper.git" "master"
-```
-Si fuese necesario utilizar una versión en concreto, o en su defecto una rama, modificaremos el segundo argumento("master"), por el valor requerido.
-
-Para añadir el framework al proyecto se realizara del mismo modo en que se añaden el resto de dependencias gestionadas con Carthage.
 
 ### SPM (Swift Package Manager)
 
@@ -61,7 +53,7 @@ En caso de utilizar la arquitectura base como un package deberemos añadir el pa
 A continuación añadimos el package con la siguiente url:
 
 ```
-https://umane.everis.com/git/MOVILIDAD/baseviper
+https://github.com/EdeXApple/BaseViper
 ```
 Con el gestor de package elegimos versión exacta y seleccionamos la última versión.
 
@@ -78,11 +70,10 @@ La política de versionamiento puede consultarse en el fichero
 
 ## Implementación de plantillas
 Se ha creado una plantilla del proyecto base implementando el BaseVIPER
-Dentro del paquete existe una carpeta llamada Templates que incluye el zip con todos los ficheros necesarios para autogenerar modulos VIPER.
+Dentro del paquete existe una carpeta llamada Templates que incluye el zip con todos los ficheros necesarios para autogenerar modulos VIPER+.
 Además se ha incluido un proyecto de ejemplo que implementa BaseVIPER, y el paquete de componentes que permite la abstracción de colecciones, tablas... además de compoenntes visuales.
 
 ```
-https://umane.everis.com/git/MOVILIDAD/techradar-ios-uikit-components
 ```
 
 ## Implementación de AppDelegate
@@ -103,6 +94,3 @@ https://umane.everis.com/git/MOVILIDAD/techradar-ios-uikit-components
 ## Releases
 
 [Releases.md][3]
-
-
-XXX
