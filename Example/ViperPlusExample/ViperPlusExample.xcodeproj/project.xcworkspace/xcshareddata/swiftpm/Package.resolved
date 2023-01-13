@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/EdeXApple/BaseViper",
       "state" : {
-        "branch" : "feature/Rebranding",
-        "revision" : "89e092dbad0073e71a64324bfa1975350e28a127"
+        "branch" : "main",
+        "revision" : "5273f61fdddfd02c14a0cd4057f604874ff7bddd"
       }
     }
   ],
