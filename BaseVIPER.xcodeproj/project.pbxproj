@@ -29,37 +29,9 @@
 		1728657227F4A85F00EFBEF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1728656927F4A85F00EFBEF8 /* LaunchScreen.storyboard */; };
 		1728657327F4A85F00EFBEF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1728656B27F4A85F00EFBEF8 /* Main.storyboard */; };
 		1728657527F4A85F00EFBEF8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1728656E27F4A85F00EFBEF8 /* Info.plist */; };
-		1728658627F4AE6500EFBEF8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728658427F4AE6500EFBEF8 /* HomeViewController.swift */; };
-		1728658827F4AE6600EFBEF8 /* HomeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728657A27F4AE6500EFBEF8 /* HomeAssembly.swift */; };
-		1728658A27F4AE6600EFBEF8 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728658327F4AE6500EFBEF8 /* HomeRouter.swift */; };
-		1728658C27F4AE6600EFBEF8 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728657C27F4AE6500EFBEF8 /* HomePresenter.swift */; };
 		1728658E27F4AE6600EFBEF8 /* HomeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728657D27F4AE6500EFBEF8 /* HomeProvider.swift */; };
-		1728659027F4AE6600EFBEF8 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728658227F4AE6500EFBEF8 /* HomeInteractor.swift */; };
 		1728659427F4B0B500EFBEF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728656D27F4A85F00EFBEF8 /* AppDelegate.swift */; };
-		1728659527F4B4BF00EFBEF8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1728657B27F4AE6500EFBEF8 /* HomeViewController.xib */; };
-		1728659D27F5AE0E00EFBEF8 /* HomeServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728657F27F4AE6500EFBEF8 /* HomeServerModel.swift */; };
-		1728659E27F5AE1500EFBEF8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728658027F4AE6500EFBEF8 /* HomeViewModel.swift */; };
-		1728659F27F5AE1800EFBEF8 /* HomeBusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728658127F4AE6500EFBEF8 /* HomeBusinessModel.swift */; };
-		1763D0E42812ADD500AB11B9 /* OptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1763D0E22812ADD500AB11B9 /* OptionTableViewCell.swift */; };
-		1763D0E52812ADD500AB11B9 /* OptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1763D0E32812ADD500AB11B9 /* OptionTableViewCell.xib */; };
-		1763D0E92812AF2B00AB11B9 /* OptionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1763D0E72812AF2800AB11B9 /* OptionCellViewModel.swift */; };
-		1763D0EB2812CD2900AB11B9 /* OptionCellDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1763D0EA2812CD2900AB11B9 /* OptionCellDrawer.swift */; };
-		17808C25282CEAFD0029DC2C /* LoginAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C19282CEAFD0029DC2C /* LoginAssembly.swift */; };
-		17808C26282CEAFD0029DC2C /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C1A282CEAFD0029DC2C /* LoginInteractor.swift */; };
-		17808C27282CEAFD0029DC2C /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C1A282CEAFD0029DC2C /* LoginInteractor.swift */; };
-		17808C28282CEAFD0029DC2C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C1C282CEAFD0029DC2C /* LoginViewModel.swift */; };
-		17808C29282CEAFD0029DC2C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C1C282CEAFD0029DC2C /* LoginViewModel.swift */; };
-		17808C2A282CEAFD0029DC2C /* LoginBusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C1D282CEAFD0029DC2C /* LoginBusinessModel.swift */; };
-		17808C2B282CEAFD0029DC2C /* LoginBusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C1D282CEAFD0029DC2C /* LoginBusinessModel.swift */; };
-		17808C2D282CEAFD0029DC2C /* LoginServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C1E282CEAFD0029DC2C /* LoginServerModel.swift */; };
 		17808C2F282CEAFD0029DC2C /* LoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C1F282CEAFD0029DC2C /* LoginProvider.swift */; };
-		17808C30282CEAFD0029DC2C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17808C20282CEAFD0029DC2C /* LoginViewController.xib */; };
-		17808C31282CEAFD0029DC2C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17808C20282CEAFD0029DC2C /* LoginViewController.xib */; };
-		17808C33282CEAFD0029DC2C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C21282CEAFD0029DC2C /* LoginViewController.swift */; };
-		17808C34282CEAFD0029DC2C /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C22282CEAFD0029DC2C /* LoginPresenter.swift */; };
-		17808C35282CEAFD0029DC2C /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C22282CEAFD0029DC2C /* LoginPresenter.swift */; };
-		17808C36282CEAFD0029DC2C /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C23282CEAFD0029DC2C /* LoginRouter.swift */; };
-		17808C37282CEAFD0029DC2C /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C23282CEAFD0029DC2C /* LoginRouter.swift */; };
 		17808C3A282CEDD30029DC2C /* BaseServerModel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C39282CEDD30029DC2C /* BaseServerModel+Extension.swift */; };
 		17808C3B282CEDD30029DC2C /* BaseServerModel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C39282CEDD30029DC2C /* BaseServerModel+Extension.swift */; };
 		17808C43282CF9090029DC2C /* BaseVIPERSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C42282CF9090029DC2C /* BaseVIPERSampleTests.swift */; };
@@ -69,18 +41,7 @@
 		17808C56282D209C0029DC2C /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C55282D209C0029DC2C /* UIApplication+Extension.swift */; };
 		17808C5E282D5ABE0029DC2C /* BaseVIPERSampleUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C5D282D5ABE0029DC2C /* BaseVIPERSampleUITest.swift */; };
 		17808C60282D5ABE0029DC2C /* BaseVIPERSampleUITestLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17808C5F282D5ABE0029DC2C /* BaseVIPERSampleUITestLaunchTests.swift */; };
-		179985EE2828F1F100C2BF99 /* OptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179985EC2828F1F100C2BF99 /* OptionCollectionViewCell.swift */; };
-		179985EF2828F1F100C2BF99 /* OptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179985EC2828F1F100C2BF99 /* OptionCollectionViewCell.swift */; };
-		179985F02828F1F100C2BF99 /* OptionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 179985ED2828F1F100C2BF99 /* OptionCollectionViewCell.xib */; };
-		179985F12828F1F100C2BF99 /* OptionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 179985ED2828F1F100C2BF99 /* OptionCollectionViewCell.xib */; };
-		179985F32828FA8000C2BF99 /* OptionCollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179985F22828FA8000C2BF99 /* OptionCollectionCellViewModel.swift */; };
-		179985F42828FA8000C2BF99 /* OptionCollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179985F22828FA8000C2BF99 /* OptionCollectionCellViewModel.swift */; };
-		179985F628291F5500C2BF99 /* OptionCollectionCellDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179985F528291F5500C2BF99 /* OptionCollectionCellDrawer.swift */; };
-		179985F728291F5500C2BF99 /* OptionCollectionCellDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179985F528291F5500C2BF99 /* OptionCollectionCellDrawer.swift */; };
-		5B3016912925362F00A43155 /* MCVIPER in Frameworks */ = {isa = PBXBuildFile; productRef = 5B3016902925362F00A43155 /* MCVIPER */; };
-		5B3016942925371700A43155 /* ComponentsUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B3016932925371700A43155 /* ComponentsUIKit */; };
-		5B3016962925373C00A43155 /* MCVIPER in Frameworks */ = {isa = PBXBuildFile; productRef = 5B3016952925373C00A43155 /* MCVIPER */; };
-		5B3016982925374000A43155 /* ComponentsUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B3016972925374000A43155 /* ComponentsUIKit */; };
+		75A709A7297184F100E40D85 /* MCVIPER in Frameworks */ = {isa = PBXBuildFile; productRef = 75A709A6297184F100E40D85 /* MCVIPER */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,32 +93,10 @@
 		1728656C27F4A85F00EFBEF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		1728656D27F4A85F00EFBEF8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1728656E27F4A85F00EFBEF8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1728657A27F4AE6500EFBEF8 /* HomeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssembly.swift; sourceTree = "<group>"; };
-		1728657B27F4AE6500EFBEF8 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		1728657C27F4AE6500EFBEF8 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		1728657D27F4AE6500EFBEF8 /* HomeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProvider.swift; sourceTree = "<group>"; };
-		1728657F27F4AE6500EFBEF8 /* HomeServerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServerModel.swift; sourceTree = "<group>"; };
-		1728658027F4AE6500EFBEF8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		1728658127F4AE6500EFBEF8 /* HomeBusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBusinessModel.swift; sourceTree = "<group>"; };
-		1728658227F4AE6500EFBEF8 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
-		1728658327F4AE6500EFBEF8 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
-		1728658427F4AE6500EFBEF8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1728659627F4B70B00EFBEF8 /* BaseVIPERSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BaseVIPERSample.entitlements; sourceTree = "<group>"; };
-		1763D0E22812ADD500AB11B9 /* OptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTableViewCell.swift; sourceTree = "<group>"; };
-		1763D0E32812ADD500AB11B9 /* OptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionTableViewCell.xib; sourceTree = "<group>"; };
-		1763D0E72812AF2800AB11B9 /* OptionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCellViewModel.swift; sourceTree = "<group>"; };
-		1763D0EA2812CD2900AB11B9 /* OptionCellDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCellDrawer.swift; sourceTree = "<group>"; };
 		176EA9B2286DC76F00FD1A65 /* baseViper */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = baseViper; sourceTree = "<group>"; };
-		17808C19282CEAFD0029DC2C /* LoginAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAssembly.swift; sourceTree = "<group>"; };
-		17808C1A282CEAFD0029DC2C /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
-		17808C1C282CEAFD0029DC2C /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		17808C1D282CEAFD0029DC2C /* LoginBusinessModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginBusinessModel.swift; sourceTree = "<group>"; };
-		17808C1E282CEAFD0029DC2C /* LoginServerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginServerModel.swift; sourceTree = "<group>"; };
 		17808C1F282CEAFD0029DC2C /* LoginProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProvider.swift; sourceTree = "<group>"; };
-		17808C20282CEAFD0029DC2C /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		17808C21282CEAFD0029DC2C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		17808C22282CEAFD0029DC2C /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
-		17808C23282CEAFD0029DC2C /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		17808C39282CEDD30029DC2C /* BaseServerModel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseServerModel+Extension.swift"; sourceTree = "<group>"; };
 		17808C40282CF9090029DC2C /* BaseVIPERSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseVIPERSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17808C42282CF9090029DC2C /* BaseVIPERSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVIPERSampleTests.swift; sourceTree = "<group>"; };
@@ -168,10 +107,6 @@
 		17808C5B282D5ABE0029DC2C /* BaseVIPERSampleUITest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseVIPERSampleUITest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17808C5D282D5ABE0029DC2C /* BaseVIPERSampleUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVIPERSampleUITest.swift; sourceTree = "<group>"; };
 		17808C5F282D5ABE0029DC2C /* BaseVIPERSampleUITestLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVIPERSampleUITestLaunchTests.swift; sourceTree = "<group>"; };
-		179985EC2828F1F100C2BF99 /* OptionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCollectionViewCell.swift; sourceTree = "<group>"; };
-		179985ED2828F1F100C2BF99 /* OptionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionCollectionViewCell.xib; sourceTree = "<group>"; };
-		179985F22828FA8000C2BF99 /* OptionCollectionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCollectionCellViewModel.swift; sourceTree = "<group>"; };
-		179985F528291F5500C2BF99 /* OptionCollectionCellDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCollectionCellDrawer.swift; sourceTree = "<group>"; };
 		B368BB202575078200EF5B05 /* BaseVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseVIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E49ED225755D2300537859 /* BaseVIPERSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseVIPERSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -195,8 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3016912925362F00A43155 /* MCVIPER in Frameworks */,
-				5B3016942925371700A43155 /* ComponentsUIKit in Frameworks */,
+				75A709A7297184F100E40D85 /* MCVIPER in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,8 +138,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3016962925373C00A43155 /* MCVIPER in Frameworks */,
-				5B3016982925374000A43155 /* ComponentsUIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,8 +170,6 @@
 		1728656427F4A81200EFBEF8 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				17808C18282CEAFD0029DC2C /* Login */,
-				1728657627F4AC0C00EFBEF8 /* Home */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -253,31 +183,6 @@
 			path = Base.lproj;
 			sourceTree = "<group>";
 		};
-		1728657627F4AC0C00EFBEF8 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				1763D0E12812ADBC00AB11B9 /* Cell */,
-				1728657A27F4AE6500EFBEF8 /* HomeAssembly.swift */,
-				1728658227F4AE6500EFBEF8 /* HomeInteractor.swift */,
-				1728657C27F4AE6500EFBEF8 /* HomePresenter.swift */,
-				1728658327F4AE6500EFBEF8 /* HomeRouter.swift */,
-				1728658427F4AE6500EFBEF8 /* HomeViewController.swift */,
-				1728657B27F4AE6500EFBEF8 /* HomeViewController.xib */,
-				1728657E27F4AE6500EFBEF8 /* Models */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		1728657E27F4AE6500EFBEF8 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				1728657F27F4AE6500EFBEF8 /* HomeServerModel.swift */,
-				1728658027F4AE6500EFBEF8 /* HomeViewModel.swift */,
-				1728658127F4AE6500EFBEF8 /* HomeBusinessModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		1728659927F587FC00EFBEF8 /* Providers */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,45 +190,6 @@
 				1728657D27F4AE6500EFBEF8 /* HomeProvider.swift */,
 			);
 			path = Providers;
-			sourceTree = "<group>";
-		};
-		1763D0E12812ADBC00AB11B9 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				1763D0E22812ADD500AB11B9 /* OptionTableViewCell.swift */,
-				1763D0E32812ADD500AB11B9 /* OptionTableViewCell.xib */,
-				1763D0E72812AF2800AB11B9 /* OptionCellViewModel.swift */,
-				1763D0EA2812CD2900AB11B9 /* OptionCellDrawer.swift */,
-				179985EC2828F1F100C2BF99 /* OptionCollectionViewCell.swift */,
-				179985ED2828F1F100C2BF99 /* OptionCollectionViewCell.xib */,
-				179985F22828FA8000C2BF99 /* OptionCollectionCellViewModel.swift */,
-				179985F528291F5500C2BF99 /* OptionCollectionCellDrawer.swift */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		17808C18282CEAFD0029DC2C /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				17808C1B282CEAFD0029DC2C /* Models */,
-				17808C19282CEAFD0029DC2C /* LoginAssembly.swift */,
-				17808C23282CEAFD0029DC2C /* LoginRouter.swift */,
-				17808C1A282CEAFD0029DC2C /* LoginInteractor.swift */,
-				17808C22282CEAFD0029DC2C /* LoginPresenter.swift */,
-				17808C20282CEAFD0029DC2C /* LoginViewController.xib */,
-				17808C21282CEAFD0029DC2C /* LoginViewController.swift */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		17808C1B282CEAFD0029DC2C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				17808C1C282CEAFD0029DC2C /* LoginViewModel.swift */,
-				17808C1D282CEAFD0029DC2C /* LoginBusinessModel.swift */,
-				17808C1E282CEAFD0029DC2C /* LoginServerModel.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		17808C38282CEDC10029DC2C /* Extensions */ = {
@@ -485,8 +351,7 @@
 			);
 			name = BaseVIPER;
 			packageProductDependencies = (
-				5B3016902925362F00A43155 /* MCVIPER */,
-				5B3016932925371700A43155 /* ComponentsUIKit */,
+				75A709A6297184F100E40D85 /* MCVIPER */,
 			);
 			productName = BaseVIPER;
 			productReference = B368BB202575078200EF5B05 /* BaseVIPER.framework */;
@@ -508,8 +373,6 @@
 			);
 			name = BaseVIPERSample;
 			packageProductDependencies = (
-				5B3016952925373C00A43155 /* MCVIPER */,
-				5B3016972925374000A43155 /* ComponentsUIKit */,
 			);
 			productName = BaseVIPERSample;
 			productReference = B3E49ED225755D2300537859 /* BaseVIPERSample.app */;
@@ -554,8 +417,7 @@
 			);
 			mainGroup = B368BB162575078200EF5B05;
 			packageReferences = (
-				5B30168F2925362F00A43155 /* XCRemoteSwiftPackageReference "baseviper" */,
-				5B3016922925371700A43155 /* XCRemoteSwiftPackageReference "techradar-ios-uikit-components" */,
+				75A709A5297184F100E40D85 /* XCRemoteSwiftPackageReference "BaseViper" */,
 			);
 			productRefGroup = B368BB212575078200EF5B05 /* Products */;
 			projectDirPath = "";
@@ -591,10 +453,8 @@
 			files = (
 				1728657527F4A85F00EFBEF8 /* Info.plist in Resources */,
 				1728657327F4A85F00EFBEF8 /* Main.storyboard in Resources */,
-				17808C30282CEAFD0029DC2C /* LoginViewController.xib in Resources */,
 				1728657127F4A85F00EFBEF8 /* Assets.xcassets in Resources */,
 				1728657227F4A85F00EFBEF8 /* LaunchScreen.storyboard in Resources */,
-				179985F02828F1F100C2BF99 /* OptionCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,10 +462,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17808C31282CEAFD0029DC2C /* LoginViewController.xib in Resources */,
-				1763D0E52812ADD500AB11B9 /* OptionTableViewCell.xib in Resources */,
-				1728659527F4B4BF00EFBEF8 /* HomeViewController.xib in Resources */,
-				179985F12828F1F100C2BF99 /* OptionCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,16 +546,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17808C34282CEAFD0029DC2C /* LoginPresenter.swift in Sources */,
-				179985EE2828F1F100C2BF99 /* OptionCollectionViewCell.swift in Sources */,
-				17808C2A282CEAFD0029DC2C /* LoginBusinessModel.swift in Sources */,
 				17808C3A282CEDD30029DC2C /* BaseServerModel+Extension.swift in Sources */,
-				17808C26282CEAFD0029DC2C /* LoginInteractor.swift in Sources */,
-				179985F32828FA8000C2BF99 /* OptionCollectionCellViewModel.swift in Sources */,
-				179985F628291F5500C2BF99 /* OptionCollectionCellDrawer.swift in Sources */,
 				1728657027F4A85F00EFBEF8 /* ViewController.swift in Sources */,
-				17808C28282CEAFD0029DC2C /* LoginViewModel.swift in Sources */,
-				17808C36282CEAFD0029DC2C /* LoginRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,35 +555,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17808C35282CEAFD0029DC2C /* LoginPresenter.swift in Sources */,
 				1728658E27F4AE6600EFBEF8 /* HomeProvider.swift in Sources */,
-				1728659F27F5AE1800EFBEF8 /* HomeBusinessModel.swift in Sources */,
-				17808C37282CEAFD0029DC2C /* LoginRouter.swift in Sources */,
-				1728659D27F5AE0E00EFBEF8 /* HomeServerModel.swift in Sources */,
-				17808C33282CEAFD0029DC2C /* LoginViewController.swift in Sources */,
-				1728658627F4AE6500EFBEF8 /* HomeViewController.swift in Sources */,
 				17808C52282D1F180029DC2C /* BaseViewController+Extension.swift in Sources */,
-				17808C25282CEAFD0029DC2C /* LoginAssembly.swift in Sources */,
-				1728659E27F5AE1500EFBEF8 /* HomeViewModel.swift in Sources */,
-				1763D0EB2812CD2900AB11B9 /* OptionCellDrawer.swift in Sources */,
-				1728658A27F4AE6600EFBEF8 /* HomeRouter.swift in Sources */,
-				17808C27282CEAFD0029DC2C /* LoginInteractor.swift in Sources */,
 				17808C4D282D112C0029DC2C /* LoginProviderMock.swift in Sources */,
-				1728659027F4AE6600EFBEF8 /* HomeInteractor.swift in Sources */,
 				1728659427F4B0B500EFBEF8 /* AppDelegate.swift in Sources */,
-				1728658827F4AE6600EFBEF8 /* HomeAssembly.swift in Sources */,
 				17808C2F282CEAFD0029DC2C /* LoginProvider.swift in Sources */,
-				179985F728291F5500C2BF99 /* OptionCollectionCellDrawer.swift in Sources */,
 				17808C3B282CEDD30029DC2C /* BaseServerModel+Extension.swift in Sources */,
-				17808C2B282CEAFD0029DC2C /* LoginBusinessModel.swift in Sources */,
-				17808C2D282CEAFD0029DC2C /* LoginServerModel.swift in Sources */,
-				179985F42828FA8000C2BF99 /* OptionCollectionCellViewModel.swift in Sources */,
-				179985EF2828F1F100C2BF99 /* OptionCollectionViewCell.swift in Sources */,
-				1763D0E92812AF2B00AB11B9 /* OptionCellViewModel.swift in Sources */,
-				1763D0E42812ADD500AB11B9 /* OptionTableViewCell.swift in Sources */,
-				17808C29282CEAFD0029DC2C /* LoginViewModel.swift in Sources */,
 				17808C56282D209C0029DC2C /* UIApplication+Extension.swift in Sources */,
-				1728658C27F4AE6600EFBEF8 /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1169,44 +995,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5B30168F2925362F00A43155 /* XCRemoteSwiftPackageReference "baseviper" */ = {
+		75A709A5297184F100E40D85 /* XCRemoteSwiftPackageReference "BaseViper" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://umane.everis.com/git/MOVILIDAD/baseviper.git";
+			repositoryURL = "https://github.com/EdeXApple/BaseViper";
 			requirement = {
-				kind = exactVersion;
-				version = 1.1.2;
-			};
-		};
-		5B3016922925371700A43155 /* XCRemoteSwiftPackageReference "techradar-ios-uikit-components" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://umane.everis.com/git/MOVILIDAD/techradar-ios-uikit-components.git";
-			requirement = {
-				kind = exactVersion;
-				version = 0.0.2;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5B3016902925362F00A43155 /* MCVIPER */ = {
+		75A709A6297184F100E40D85 /* MCVIPER */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B30168F2925362F00A43155 /* XCRemoteSwiftPackageReference "baseviper" */;
+			package = 75A709A5297184F100E40D85 /* XCRemoteSwiftPackageReference "BaseViper" */;
 			productName = MCVIPER;
-		};
-		5B3016932925371700A43155 /* ComponentsUIKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5B3016922925371700A43155 /* XCRemoteSwiftPackageReference "techradar-ios-uikit-components" */;
-			productName = ComponentsUIKit;
-		};
-		5B3016952925373C00A43155 /* MCVIPER */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5B30168F2925362F00A43155 /* XCRemoteSwiftPackageReference "baseviper" */;
-			productName = MCVIPER;
-		};
-		5B3016972925374000A43155 /* ComponentsUIKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5B3016922925371700A43155 /* XCRemoteSwiftPackageReference "techradar-ios-uikit-components" */;
-			productName = ComponentsUIKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

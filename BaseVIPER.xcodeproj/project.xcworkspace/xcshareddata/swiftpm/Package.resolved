@@ -3,28 +3,10 @@
     {
       "identity" : "baseviper",
       "kind" : "remoteSourceControl",
-      "location" : "https://umane.everis.com/git/MOVILIDAD/baseviper/",
+      "location" : "https://github.com/EdeXApple/BaseViper",
       "state" : {
-        "revision" : "3980842a01fa18fed31386b1bd137122568c2833",
-        "version" : "1.1.2"
-      }
-    },
-    {
-      "identity" : "techradar-ios-swift-extensions",
-      "kind" : "remoteSourceControl",
-      "location" : "https://umane.everis.com/git/MOVILIDAD/techradar-ios-swift-extensions",
-      "state" : {
-        "revision" : "f678d95f54ba6785bf7a7d96065ab21b277c4672",
-        "version" : "1.0.2"
-      }
-    },
-    {
-      "identity" : "techradar-ios-uikit-components",
-      "kind" : "remoteSourceControl",
-      "location" : "https://umane.everis.com/git/MOVILIDAD/techradar-ios-uikit-components.git",
-      "state" : {
-        "revision" : "28e197a55ce5d965dcf3e412858631e41fd075d8",
-        "version" : "0.0.2"
+        "revision" : "fec990d07ba93254b0a7237e63d8a8b40432a3f0",
+        "version" : "1.0.0"
       }
     }
   ],

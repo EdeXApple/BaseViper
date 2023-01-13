@@ -2,7 +2,7 @@
 //  BaseServerModelExtensionTests.swift
 //  BaseVIPERSampleTests
 //
-//  Created by Jose Antonio Romero Dueñas on 19/5/22.
+//  Created by EdexApple on 19/5/22.
 //
 
 @testable import BaseVIPERSample

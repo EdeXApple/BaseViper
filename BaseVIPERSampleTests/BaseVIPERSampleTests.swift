@@ -2,7 +2,7 @@
 //  BaseVIPERSampleTests.swift
 //  BaseVIPERSampleTests
 //
-//  Created by Jose Antonio Romero Dueñas on 12/5/22.
+//  Created by EdexApple on 12/5/22.
 //
 
 import XCTest
